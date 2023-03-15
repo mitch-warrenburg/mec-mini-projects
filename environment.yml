@@ -1,9 +1,8 @@
 name: mec-miniprojects
 channels:
-  - defaults
+  - default
 dependencies:
   - python=3.7
-  - pip
   - ipykernel
   - mkl
   - pyodbc
@@ -57,7 +56,7 @@ dependencies:
       - filelock==3.0.12
       - flake8==3.7.9
       - Flask==1.1.1
-      - fsspec==0.6.2
+      - fsspec==0.9.0
       - future==0.18.2
       - gdown==3.12.2
       - gevent==1.4.0
