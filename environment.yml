@@ -1,10 +1,12 @@
 name: mec-miniprojects
 channels:
   - default
+  - conda-forge
 dependencies:
   - python=3.7
   - ipykernel
   - mkl
+  - pip
   - pyodbc
   - pip:
       - absl-py==0.9.0
@@ -185,6 +187,7 @@ dependencies:
       - scikit-image==0.16.2
       - scikit-learn==0.22.1
       - scipy==1.4.1
+      - scrapy
       - seaborn==0.10.0
       - Send2Trash==1.5.0
       - simplegeneric==0.8.1
