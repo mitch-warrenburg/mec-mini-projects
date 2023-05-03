@@ -1,0 +1,11 @@
+The databricks documentation is extremely outdated. In fact, it's so outdated that you can't even import a file as text through the UI. You can only select csv, avro or json. All of the UI screenshots in the pdf guide are totally inaccurate now.
+
+Additionally, you can't create a cluster anymore through the app. You must have an AWS account and run a job to create an AWS stack before you can create a cluster. I did this and accepted the expense on my AWS account. But the documentation is years out of date so I can’t go any further. The closest I can get is to import and select csv for the table format. But when I try to import it, there is a new format called “delta” that must be used. Since this notebook is so outdated, I of course get this error:   “A transaction log for Delta was found at `dbfs:/user/hive/warehouse/nasa_access_log_jul95_1_gz/_delta_log`,
+but you are trying to read from `dbfs:/user/hive/warehouse/nasa_access_log_jul95_1_gz` using format("text"). You must use
+'format("delta")' when reading and writing to a delta table.”
+
+I’ve worked around the outdated docs before, but I can’t get around this one. Databricks has changed significantly even since I used it in a previous exercise… and it was outdated then too.
+
+This is totally unacceptable. I'm paying a ridiculous amount of money to take a course that has content that's several years old. Most of the videos are 7-8 years old as well… This needs to be fixed or I will consider legal action to get my money back.  There is no way to complete this exercise so I’m simply not going to waste any more time on it.
+
+Am I the only person taking this course? This is truly unbelievable.
